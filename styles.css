@@ -1,0 +1,179 @@
+body {
+    padding-top: 20px;
+    background-color: #202020;
+    background: url(	https://gxmediagy.com/wp-content/uploads/2015/04/creative-website-backgrounds.jpg) no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+  }  
+  
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f6eb99;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    max-width: 550px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fbefb1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.converter {
+    display: flex;
+    flex-direction: column;
+}
+
+  
+  .title {
+    margin-top: 0px;
+    text-align: center;
+    color: #e35c07;
+  }
+  
+  .converter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+  }
+
+  .convert-button:hover {
+    background-color: #5ad63e;
+    transform: scale(1.1);
+}
+  
+  .input-value,
+  .unit-select {
+    padding: 10px;
+    font-size: 16px;
+  }
+  .input-value {
+    width: 60%;
+    padding: 15px;
+    border: 1px solid #cccccc9b;
+    border-radius: 10px;
+    font-size: 16px;
+    margin: 10px;
+    transition: border-color 0.3s ease;
+}
+
+.input-value {
+    outline: none;
+    border-color: hsl(207, 23%, 82%);
+}
+.input-group:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #08f6e2;
+}
+
+.unit-select {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    width: 40%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+  .arrow {
+    font-size: 50px;
+    margin-top:0px 5px;
+    color: #531717;
+  }
+  
+  .convert-button {
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .convert-button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    padding: 10px;
+    width: 70%;
+    font-size: 26px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+  #result {
+      margin-top: 0px;
+      font-size: 25px;
+      font-weight: bold;
+      text-align: center;
+      color: #f80808;
+      opacity: 1;
+      transform: translateY(-10px);
+      transition: opacity 0.3s ease, transform 0.3s ease;
+      background-color: rgb(187, 209, 101);
+      padding: 10px;
+      border-radius: 5px;
+  }
+  
+  #result.show {
+      opacity: 0.1;
+      transform: translateY(0);
+  }
+  
+  @keyframes fade-in {
+      0% {
+          opacity: 0;
+      }
+      100% {
+          opacity: 1;
+      }
+  }
+  
+  .fade-in {
+      animation: fade-in 0.5s ease;
+  }
+  @keyframes slide-in {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.slide-in {
+    animation: slide-in 0.5s ease;
+}
+/* Footer Styles */
+footer p{
+  font-size: 17px;
+  color: #f6f2f2;
+  text-align: center;
+}

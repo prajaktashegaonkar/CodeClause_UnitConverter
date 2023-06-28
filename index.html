@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Unit Converter</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Unit Converter</h1>
+
+    <div id="converter" class="converter">
+      <input type="number" id="inputValue" class="input-value" placeholder="Enter Value">
+      <select id="unitFrom" class="unit-select">
+        <option value="cm">Centimeter</option>
+        <option value="in">Inch</option>
+        <option value="m">Meter</option>
+        <option value="km">Kilometer</option>
+        <option value="mm">Millimeter</option>
+        <option value="mi">Mile</option>
+        <option value="yd">Yard</option>
+        <option value="ft">Foot</option>
+        <option value="nmi">Nautical Mile</option>
+        <option value="au">Astronomical Unit</option>
+      </select>
+      <span class="arrow">⬇</span>
+      <select id="unitTo" class="unit-select">
+        <option value="m">Meter</option>
+        <option value="in">Inch</option>
+        <option value="cm">Centimeter</option>
+        <option value="km">Kilometer</option>
+        <option value="mm">Millimeter</option>
+        <option value="mi">Mile</option>
+        <option value="yd">Yard</option>
+        <option value="ft">Foot</option>
+        <option value="nmi">Nautical Mile</option>
+        <option value="au">Astronomical Unit</option>
+      </select>
+
+
+      <button onclick="convert()" class="convert-button">CONVERT</button>
+    </div>
+
+    <div id="result" class="result"></div>
+  </div>
+  <footer>
+    <div class="footer">
+      <p>&copy; 2023 Prajakta Shegaonkar. All rights reserved.</p>
+    </div>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
